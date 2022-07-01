@@ -35,7 +35,7 @@ if (choice == "3"):
 #Convert csv to txt
 
 if (choice == "4"):
-    print()
+    print("")
 
 #opening csv file in reading mode and txt file in writing mode
 with open('dataset/avocado.csv', 'r') as f_in, open('text/avovado.txt', 'w') as f_out:
