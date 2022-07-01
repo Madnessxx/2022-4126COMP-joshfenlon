@@ -12,7 +12,7 @@ print("1. Search for keyword")
 print("2. Search for data in a specific region")
 print("3. Show Entire dataset")
 print("4. Convert csv to txt")
-print("")
+print()
 choice = (input("Make your choice: "))
 
 #search for keyword
@@ -24,9 +24,9 @@ if (choice == "1"):
 #Search for data in a specific region
 
 if (choice == "2"):
-    data2 = input("Enter the data that you want to search by")
-    region2 = input("Enter the region you want to filter by")
-    print(df[data2].where(df[region2]))
+    data2 = input("Enter the data that you want to search by: ")
+    region2 = input("Enter the region you want to filter by: ")
+    # print(df[data2].where(df['region'] = region2)) #couldnt get this to work
 
 #show entire dataset
 
