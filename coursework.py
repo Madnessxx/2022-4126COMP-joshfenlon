@@ -18,7 +18,8 @@ choice = (input("Make your choice: "))
 #search for keyword
 
 if (choice == "1"):
-    print()
+    data1 = input("Enter the keyword: ")
+    print(df[data1])
 
 #Search for data in a specific region
 
