@@ -32,3 +32,12 @@ if (choice == "2"):
 if (choice == "3"):
     print(df) #prints the entire dataset
 
+#Convert csv to txt
+
+if (choice == "4"):
+    print()
+
+#opening csv file in reading mode and txt file in writing mode
+with open('dataset/avocado.csv', 'r') as f_in, open('text/avovado.txt', 'w') as f_out:
+    content = f_in.read() # read the csv values and store in variable
+    f_out.write(content) # write the content into the txt file
